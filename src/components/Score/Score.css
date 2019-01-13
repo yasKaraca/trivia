@@ -1,0 +1,27 @@
+.Score {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+.Score:hover {
+    cursor: pointer;
+}
+
+.btnReset {
+    background: #fafafa !important;
+}
+
+.btnReset a {
+    color: black;
+}
